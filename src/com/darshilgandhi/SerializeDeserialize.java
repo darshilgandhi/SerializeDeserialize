@@ -43,7 +43,7 @@ public class SerializeDeserialize {
 
 
     public void readFromFile(){
-        System.out.println("---Reading names of countries from file---");
+        System.out.println("---Deserializing. Reading names of countries from file---");
         try(Scanner scanner = new Scanner(new BufferedReader(new FileReader("deserialize_program_input.txt")))){
             while (scanner.hasNext()){
                 String a = scanner.nextLine();
